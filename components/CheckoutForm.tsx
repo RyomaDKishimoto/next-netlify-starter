@@ -23,7 +23,7 @@ const cardOptions = {
  * CheckoutForm
  */
 const CheckoutForm = () => {
-  const price = 1;
+  const price = 100;
   const [succeeded, setSucceeded] = React.useState(false);
   const [error, setError] = React.useState(null);
   const [processing, setProcessing] = React.useState(false);
@@ -48,7 +48,8 @@ const CheckoutForm = () => {
       })
       .then((data) => {
         setClientSecret(data.clientSecret);
-      });
+      })
+      .catch((error) => console.error(error));
   }, []);
 
   // 入力時のチェック
