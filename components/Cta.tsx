@@ -27,6 +27,21 @@ export default function Cta() {
         <SocialIcon kind='facebook' href={siteMetadata.facebook} size={6} />
         <SocialIcon kind='youtube' href={siteMetadata.youtube} size={6} />
         <SocialIcon kind='twitter' href={siteMetadata.twitter} size={6} />
+        <a
+          href='https://twitter.com/share?ref_src=twsrc%5Etfw'
+          className='twitter-share-button'
+          data-text='hoge ------- !!'
+          data-url='https://tailwind-nextjs-starter-blog.vercel.app/about'
+          data-via='ryoma_okinawa'
+          data-show-count='false'
+        >
+          Tweet
+        </a>
+        {/* <script
+          async
+          src='https://platform.twitter.com/widgets.js'
+          charSet='utf-8'
+        ></script> */}
       </div>
     </div>
   )
