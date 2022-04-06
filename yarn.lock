@@ -1146,6 +1146,23 @@
   "resolved" "https://registry.npmjs.org/@polka/url/-/url-1.0.0-next.21.tgz"
   "version" "1.0.0-next.21"
 
+"@prisma/client@^3.11.1":
+  "integrity" "sha512-B3C7zQG4HbjJzUr2Zg9UVkBJutbqq9/uqkl1S138+keZCubJrwizx3RuIvGwI+s+pm3qbsyNqXiZgL3Ir0fSng=="
+  "resolved" "https://registry.npmjs.org/@prisma/client/-/client-3.11.1.tgz"
+  "version" "3.11.1"
+  dependencies:
+    "@prisma/engines-version" "3.11.1-1.1a2506facaf1a4727b7c26850735e88ec779dee9"
+
+"@prisma/engines-version@3.11.1-1.1a2506facaf1a4727b7c26850735e88ec779dee9":
+  "integrity" "sha512-HkcsDniA4iNb/gi0iuyOJNAM7nD/LwQ0uJm15v360O5dee3TM4lWdSQiTYBMK6FF68ACUItmzSur7oYuUZ2zkQ=="
+  "resolved" "https://registry.npmjs.org/@prisma/engines-version/-/engines-version-3.11.1-1.1a2506facaf1a4727b7c26850735e88ec779dee9.tgz"
+  "version" "3.11.1-1.1a2506facaf1a4727b7c26850735e88ec779dee9"
+
+"@prisma/engines@3.11.1-1.1a2506facaf1a4727b7c26850735e88ec779dee9":
+  "integrity" "sha512-MILbsGnvmnhCbFGa2/iSnsyGyazU3afzD7ldjCIeLIGKkNBMSZgA2IvpYsAXl+6qFHKGrS3B2otKfV31dwMSQw=="
+  "resolved" "https://registry.npmjs.org/@prisma/engines/-/engines-3.11.1-1.1a2506facaf1a4727b7c26850735e88ec779dee9.tgz"
+  "version" "3.11.1-1.1a2506facaf1a4727b7c26850735e88ec779dee9"
+
 "@stripe/react-stripe-js@^1.7.0":
   "integrity" "sha512-L20v8Jq0TDZFL2+y+uXD751t6q9SalSFkSYZpmZ2VWrGZGK7HAGfRQ804dzYSSr5fGenW6iz6y7U0YKfC/TK3g=="
   "resolved" "https://registry.npmjs.org/@stripe/react-stripe-js/-/react-stripe-js-1.7.0.tgz"
@@ -3608,6 +3625,13 @@
   "integrity" "sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg=="
   "resolved" "https://registry.npmjs.org/prettier/-/prettier-2.5.1.tgz"
   "version" "2.5.1"
+
+"prisma@*", "prisma@^3.11.1":
+  "integrity" "sha512-aYn8bQwt1xwR2oSsVNHT4PXU7EhsThIwmpNB/MNUaaMx5OPLTro6VdNJe/sJssXFLxhamfWeMjwmpXjljo6xkg=="
+  "resolved" "https://registry.npmjs.org/prisma/-/prisma-3.11.1.tgz"
+  "version" "3.11.1"
+  dependencies:
+    "@prisma/engines" "3.11.1-1.1a2506facaf1a4727b7c26850735e88ec779dee9"
 
 "process-nextick-args@~2.0.0":
   "integrity" "sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag=="
